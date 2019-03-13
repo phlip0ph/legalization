@@ -1,0 +1,104 @@
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+#212c19
+Main dark green #27663D
+Secondary pastel green #2EB25C
+Tertiary light pastel green #5BFF94
+Complementary dark red #660906
+Complementary dark salmon #B2322E
+*/
+
+body{
+    background-color: #212C19;
+}
+#sections-area{
+    display: flex;
+    flex-flow: column wrap;
+    align-self: auto;
+    align-items: baseline;
+    max-height: 800px;
+    width: 100%;
+}
+.section{
+    flex: 0 0 auto;
+    max-height: 500px;
+    max-width: 450px;
+    background-color: #2EB25C;
+    border-radius: 25px;
+    margin: 10px;
+}
+.section-button, .section-button::-moz-focus-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    height: auto;
+    padding: 5px;
+    background-color: #2EB25C;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    
+}
+.section-button:hover{
+    background-color: #5bff94;
+}
+.overlay{
+    position: fixed;
+}
+h4, h3, h1{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    align-content: center;
+    text-align: center;
+    margin: 15px;
+    background-color: #212C19;
+    width: 100%;
+    color: whitesmoke;
+}
+#introText{
+    color: whitesmoke;
+    font-weight: 900;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100px;
+    background-image: url('../images/header-image.png');
+    background-color: #212C19;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.previewImage{
+    border-radius: 25px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #212C19;
+    color: whitesmoke;
+    width: 50%;
+    padding: 15px;
+}
+.hidden>.overlay{
+    display: none;
+} 
+.show>.overlay{
+    display: flex;
+    position: absolute;
+    top: auto;
+    left: 25%;
+}
+.content1, .content2, .content3{
+    font-family: 'Raleway', sans-serif;
+}
