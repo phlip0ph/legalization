@@ -41,6 +41,18 @@ body{
     outline: none;
     
 }
+.section-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    height: auto;
+    padding: 5px;
+    background-color: #2EB25C;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
 .section-button:hover{
     background-color: #5bff94;
     border-radius: 25px;
@@ -52,6 +64,8 @@ h4, h3, h1{
     font-family: 'Poppins', sans-serif;
     padding: 0px;
     margin: 0px;
+    text-align: center;
+    align-self: center;
 }
 h1{
     align-content: center;
