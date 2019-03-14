@@ -14,6 +14,8 @@ body{
 #sections-area{
     display: flex;
     flex-flow: column wrap;
+    -moz-flex-flow: column wrap;
+    -webkit-flex-flow: column wrap;
     align-self: auto;
     align-items: baseline;
     max-height: 800px;
