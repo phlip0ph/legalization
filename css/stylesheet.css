@@ -21,7 +21,6 @@ body{
 }
 .section{
     flex: 0 0 auto;
-    max-height: 500px;
     max-width: 450px;
     background-color: #2EB25C;
     border-radius: 25px;
@@ -42,6 +41,7 @@ body{
 }
 .section-button:hover{
     background-color: #5bff94;
+    border-radius: 25px;
 }
 .overlay{
     position: fixed;
