@@ -11,6 +11,8 @@ Vue.component('cube', {
         content1: String,
         content2: String,
         content3: String,
+        source1: String,
+        source2: String
     },
     template:`
     <div class = "section">
@@ -27,6 +29,9 @@ Vue.component('cube', {
             <p>{{content2}}</p>
             <h4>{{title3}}</h4>
             <p>{{content3}}</p>
+            <h4>Sources<h4>
+            <p>{{source1}}<p>
+            <p>{{source2}}<p>
         </div>
         </div> 
     </div>
